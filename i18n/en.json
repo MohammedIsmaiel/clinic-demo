@@ -1,0 +1,176 @@
+{
+  "TITLE": "Dental Clinic",
+  "DASHBOARD": "Dashboard",
+  "TODAYS_QUEUE": "Today's Queue",
+  "NO_PATIENTS": "No patients scheduled for today",
+  "ADD_NEW_VISIT": "Add a new visit to get started",
+  "NEW_PATIENT": "+ New Patient",
+  "PATIENT_MANAGEMENT": "Patient Management",
+  "MANAGE_PATIENTS": "Manage Patients",
+  "VISIT_RECORDS": "Visit Records",
+  "VIEW_VISITS": "View Visits",
+  "FINANCIAL_REPORTS": "Financial Reports",
+  "VIEW_REPORTS": "View Reports",
+  "SETTINGS": "Settings",
+  "APPEARANCE": "Appearance",
+  "LANGUAGE": "Language",
+  "ENGLISH": "English",
+  "ARABIC": "العربية",
+  "SETTINGS_SAVED": "Settings saved successfully!",
+  "SAVE_CHANGES": "Save Changes",
+  "CLINIC_INFO": "Clinic Info",
+  "NOTIFICATIONS": "Notifications",
+  "BUSINESS": "Business",
+  "DATA": "Data",
+  "MENU_DASHBOARD": "Dashboard",
+  "MENU_QUEUE": "Today's Queue",
+  "MENU_PATIENTS": "Patients",
+  "MENU_VISITS": "All Visits",
+  "MENU_PAYMENTS": "Payments",
+  "MENU_REPORTS": "Reports",
+  "MENU_SETTINGS": "Settings",
+
+  "DASHBOARD_TITLE": "Dashboard",
+  "VIEW": "View",
+
+  "STAT_TODAYS_PATIENTS": "Today's Patients",
+  "STAT_WAITING_NOW": "Waiting Now",
+  "STAT_TODAYS_REVENUE": "Today's Revenue",
+  "STAT_UNPAID_VISITS": "Unpaid Visits",
+
+  "FROM_YESTERDAY": "from yesterday",
+  "IN_QUEUE": "In queue",
+  "VS_LAST_WEEK": "vs last week",
+  "OWED": "owed",
+
+  "FILTER_TODAY": "Today",
+  "FILTER_THIS_WEEK": "This Week",
+  "FILTER_THIS_MONTH": "This Month",
+
+  "UNKNOWN_PATIENT": "Unknown Patient",
+  "CHECKUP": "Checkup",
+  "LOGOUT_BUTTON": "Log Out",
+  "patient": {
+    "title": "Patient Management",
+    "subtitle": "{{count}} patient registered",
+    "subtitle_plural": "{{count}} patients registered",
+    "buttons": {
+      "newPatient": "New Patient",
+      "registerPatient": "Register Patient",
+      "saveChanges": "Save Changes",
+      "cancel": "Cancel",
+      "clearSearch": "Clear search",
+      "createVisit": "Create Visit",
+      "editPatient": "Edit Patient",
+      "deletePatient": "Delete Patient",
+      "createFirstVisit": "Create First Visit"
+    },
+    "search": {
+      "placeholder": "Search by name or phone number..."
+    },
+    "sort": {
+      "mostRecent": "Most Recent",
+      "nameAZ": "Name (A-Z)",
+      "mostVisits": "Most Visits"
+    },
+    "table": {
+      "registered": "Registered",
+      "age": "Age"
+    },
+    "emptyState": {
+      "noPatients": {
+        "title": "No patients yet",
+        "description": "Get started by registering your first patient"
+      },
+      "noSearchResults": {
+        "title": "No patients found",
+        "description": "Try adjusting your search query"
+      }
+    },
+    "modal": {
+      "addTitle": "Register New Patient",
+      "editTitle": "Edit Patient",
+      "detailsTitle": "Patient Details",
+      "patientId": "Patient ID"
+    },
+    "form": {
+      "fullName": "Full Name",
+      "phoneNumber": "Phone Number",
+      "age": "Age",
+      "gender": "Gender",
+      "notes": "Medical Notes / Allergies",
+      "required": "*",
+      "placeholders": {
+        "name": "Enter patient's full name",
+        "phone": "01234567890",
+        "age": "Age",
+        "notes": "Any medical conditions, allergies, or important notes..."
+      },
+      "genderOptions": {
+        "select": "Select...",
+        "male": "Male",
+        "female": "Female"
+      }
+    },
+    "validation": {
+      "nameRequired": "Patient name is required",
+      "phoneRequired": "Phone number is required",
+      "phoneInvalid": "Please enter a valid phone number",
+      "ageInvalid": "Please enter a valid age"
+    },
+    "details": {
+      "personalInfo": "Personal Information",
+      "financialSummary": "Financial Summary",
+      "medicalNotes": "Medical Notes / Allergies",
+      "visitHistory": "Visit History",
+      "quickActions": "Quick Actions",
+      "totalVisits": "Total Visits",
+      "totalPaid": "Total Paid",
+      "totalOwed": "Total Owed",
+      "lastVisit": "Last Visit",
+      "years": "years",
+      "noVisits": {
+        "title": "No visits yet",
+        "description": "Create the first visit for this patient"
+      }
+    },
+    "visit": {
+      "status": {
+        "waiting": "WAITING",
+        "inProgress": "IN PROGRESS",
+        "completed": "COMPLETED"
+      },
+      "totalCost": "Total Cost",
+      "owed": "{{amount}} EGP owed",
+      "paidInFull": "Paid in full",
+      "procedure": "procedure",
+      "procedure_plural": "procedures",
+      "payment": "payment",
+      "payment_plural": "payments",
+      "prescription": "Prescription"
+    },
+    "messages": {
+      "success": {
+        "registered": "Patient registered successfully!",
+        "updated": "Patient updated successfully!",
+        "deleted": "Patient deleted successfully",
+        "visitCreated": "Visit created! Patient added to queue."
+      },
+      "error": {
+        "createFailed": "Failed to create patient",
+        "updateFailed": "Failed to update patient",
+        "deleteFailed": "Failed to delete patient: {{error}}",
+        "visitCreateFailed": "Error creating visit: {{error}}"
+      },
+      "confirm": {
+        "deleteWithVisits": "Are you sure you want to delete {{name}}? This will also delete {{count}} visit and all related data. This action cannot be undone.",
+        "deleteWithVisits_plural": "Are you sure you want to delete {{name}}? This will also delete {{count}} visits and all related data. This action cannot be undone.",
+        "deleteWithoutVisits": "Are you sure you want to delete {{name}}? This action cannot be undone."
+      }
+    },
+    "tooltips": {
+      "editPatient": "Edit Patient",
+      "deletePatient": "Delete Patient"
+    }
+  }
+}

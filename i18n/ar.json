@@ -1,0 +1,177 @@
+{
+  "TITLE": "عيادة الأسنان",
+  "DASHBOARD": "لوحة التحكم",
+  "TODAYS_QUEUE": "قائمة المواعيد اليوم",
+  "NO_PATIENTS": "لا يوجد مرضى مجدولون لليوم",
+  "ADD_NEW_VISIT": "أضف زيارة جديدة للبدء",
+  "NEW_PATIENT": "+ مريض جديد",
+  "PATIENT_MANAGEMENT": "إدارة المرضى",
+  "MANAGE_PATIENTS": "إدارة المرضى",
+  "VISIT_RECORDS": "سجلات الزيارات",
+  "VIEW_VISITS": "عرض الزيارات",
+  "FINANCIAL_REPORTS": "التقارير المالية",
+  "VIEW_REPORTS": "عرض التقارير",
+  "SETTINGS": "الإعدادات",
+  "APPEARANCE": "المظهر",
+  "LANGUAGE": "اللغة",
+  "ENGLISH": "English",
+  "ARABIC": "العربية",
+  "SETTINGS_SAVED": "تم حفظ الإعدادات بنجاح!",
+  "SAVE_CHANGES": "حفظ التغييرات",
+  "CLINIC_INFO": "معلومات العيادة",
+  "NOTIFICATIONS": "الإشعارات",
+  "BUSINESS": "الأعمال",
+  "DATA": "البيانات",
+  "MENU_DASHBOARD": "لوحة التحكم",
+  "MENU_QUEUE": "طابور اليوم",
+  "MENU_PATIENTS": "المرضى",
+  "MENU_VISITS": "كل الزيارات",
+  "MENU_PAYMENTS": "المدفوعات",
+  "MENU_REPORTS": "التقارير",
+  "MENU_SETTINGS": "الإعدادات",
+
+  "DASHBOARD_TITLE": "لوحة التحكم",
+
+  "VIEW": "عرض",
+
+  "STAT_TODAYS_PATIENTS": "مرضى اليوم",
+  "STAT_WAITING_NOW": "في الانتظار",
+  "STAT_TODAYS_REVENUE": "إيراد اليوم",
+  "STAT_UNPAID_VISITS": "زيارات غير مدفوعة",
+
+  "FROM_YESTERDAY": "عن الأمس",
+  "IN_QUEUE": "في الطابور",
+  "VS_LAST_WEEK": "مقارنة بالأسبوع الماضي",
+  "OWED": "مستحق",
+
+  "FILTER_TODAY": "اليوم",
+  "FILTER_THIS_WEEK": "هذا الأسبوع",
+  "FILTER_THIS_MONTH": "هذا الشهر",
+
+  "UNKNOWN_PATIENT": "مريض غير معروف",
+  "CHECKUP": "فحص",
+  "LOGOUT_BUTTON": "تسجيل الخروج",
+  "patient": {
+    "title": "إدارة المرضى",
+    "subtitle": "مريض واحد مسجل",
+    "subtitle_plural": "{{count}} مريض مسجل",
+    "buttons": {
+      "newPatient": "مريض جديد",
+      "registerPatient": "تسجيل المريض",
+      "saveChanges": "حفظ التغييرات",
+      "cancel": "إلغاء",
+      "clearSearch": "مسح البحث",
+      "createVisit": "إنشاء زيارة",
+      "editPatient": "تعديل بيانات المريض",
+      "deletePatient": "حذف المريض",
+      "createFirstVisit": "إنشاء أول زيارة"
+    },
+    "search": {
+      "placeholder": "البحث بالاسم أو رقم الهاتف..."
+    },
+    "sort": {
+      "mostRecent": "الأحدث",
+      "nameAZ": "الاسم (أ-ي)",
+      "mostVisits": "الأكثر زيارة"
+    },
+    "table": {
+      "registered": "تاريخ التسجيل",
+      "age": "العمر"
+    },
+    "emptyState": {
+      "noPatients": {
+        "title": "لا يوجد مرضى بعد",
+        "description": "ابدأ بتسجيل أول مريض"
+      },
+      "noSearchResults": {
+        "title": "لم يتم العثور على مرضى",
+        "description": "حاول تعديل كلمات البحث"
+      }
+    },
+    "modal": {
+      "addTitle": "تسجيل مريض جديد",
+      "editTitle": "تعديل بيانات المريض",
+      "detailsTitle": "تفاصيل المريض",
+      "patientId": "رقم المريض"
+    },
+    "form": {
+      "fullName": "الاسم الكامل",
+      "phoneNumber": "رقم الهاتف",
+      "age": "العمر",
+      "gender": "النوع",
+      "notes": "ملاحظات طبية / حساسية",
+      "required": "*",
+      "placeholders": {
+        "name": "أدخل الاسم الكامل للمريض",
+        "phone": "01234567890",
+        "age": "العمر",
+        "notes": "أي حالات طبية أو حساسية أو ملاحظات مهمة..."
+      },
+      "genderOptions": {
+        "select": "اختر...",
+        "male": "ذكر",
+        "female": "أنثى"
+      }
+    },
+    "validation": {
+      "nameRequired": "اسم المريض مطلوب",
+      "phoneRequired": "رقم الهاتف مطلوب",
+      "phoneInvalid": "الرجاء إدخال رقم هاتف صحيح",
+      "ageInvalid": "الرجاء إدخال عمر صحيح"
+    },
+    "details": {
+      "personalInfo": "المعلومات الشخصية",
+      "financialSummary": "الملخص المالي",
+      "medicalNotes": "الملاحظات الطبية / الحساسية",
+      "visitHistory": "سجل الزيارات",
+      "quickActions": "إجراءات سريعة",
+      "totalVisits": "إجمالي الزيارات",
+      "totalPaid": "إجمالي المدفوع",
+      "totalOwed": "إجمالي المستحق",
+      "lastVisit": "آخر زيارة",
+      "years": "سنة",
+      "noVisits": {
+        "title": "لا توجد زيارات بعد",
+        "description": "أنشئ أول زيارة لهذا المريض"
+      }
+    },
+    "visit": {
+      "status": {
+        "waiting": "في الانتظار",
+        "inProgress": "قيد التنفيذ",
+        "completed": "مكتملة"
+      },
+      "totalCost": "التكلفة الإجمالية",
+      "owed": "{{amount}} جنيه مستحق",
+      "paidInFull": "مدفوع بالكامل",
+      "procedure": "إجراء",
+      "procedure_plural": "إجراءات",
+      "payment": "دفعة",
+      "payment_plural": "دفعات",
+      "prescription": "وصفة طبية"
+    },
+    "messages": {
+      "success": {
+        "registered": "تم تسجيل المريض بنجاح!",
+        "updated": "تم تحديث بيانات المريض بنجاح!",
+        "deleted": "تم حذف المريض بنجاح",
+        "visitCreated": "تم إنشاء الزيارة! تمت إضافة المريض إلى قائمة الانتظار."
+      },
+      "error": {
+        "createFailed": "فشل في إنشاء المريض",
+        "updateFailed": "فشل في تحديث المريض",
+        "deleteFailed": "فشل في حذف المريض: {{error}}",
+        "visitCreateFailed": "خطأ في إنشاء الزيارة: {{error}}"
+      },
+      "confirm": {
+        "deleteWithVisits": "هل أنت متأكد من حذف {{name}}؟ سيؤدي ذلك أيضاً إلى حذف زيارة واحدة وجميع البيانات المرتبطة. لا يمكن التراجع عن هذا الإجراء.",
+        "deleteWithVisits_plural": "هل أنت متأكد من حذف {{name}}؟ سيؤدي ذلك أيضاً إلى حذف {{count}} زيارة وجميع البيانات المرتبطة. لا يمكن التراجع عن هذا الإجراء.",
+        "deleteWithoutVisits": "هل أنت متأكد من حذف {{name}}؟ لا يمكن التراجع عن هذا الإجراء."
+      }
+    },
+    "tooltips": {
+      "editPatient": "تعديل بيانات المريض",
+      "deletePatient": "حذف المريض"
+    }
+  }
+}
