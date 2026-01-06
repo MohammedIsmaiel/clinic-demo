@@ -1,1 +1,128 @@
-import{a as H}from"./chunk-BHVNSPY6.js";import{a as y}from"./chunk-EHV4AGIJ.js";import{a as L,d as M,e as b}from"./chunk-XVAHRLWD.js";import{a as C,b as a,c as i,d as v,g as T,h as A,i as x}from"./chunk-T2HTACBN.js";import{Aa as h,I as c,L as l,N as e,Ta as g,a as m,aa as f,ba as d,wa as u}from"./chunk-KIKRUHUI.js";var s=new l("TRANSLATE_HTTP_LOADER_CONFIG"),j=(()=>{class t{http;config;constructor(){this.config=m({prefix:"/assets/i18n/",suffix:".json",enforceLoading:!1,useHttpBackend:!1},e(s)),this.http=this.config.useHttpBackend?new i(e(a)):e(i)}getTranslation(n){let r=this.config.enforceLoading?`?enforceLoading=${Date.now()}`:"";return this.http.get(`${this.config.prefix}${n}${this.config.suffix}${r}`)}static \u0275fac=function(r){return new(r||t)};static \u0275prov=c({token:t,factory:t.\u0275fac})}return t})();function D(t={}){let o=t.useHttpBackend??!1;return[{provide:s,useValue:t},{provide:L,useClass:j,deps:[o?a:i,s]}]}var O=()=>{let t=e(y),o=e(A);return t.isLoggedIn()?!0:(o.navigate(["/login"]),!1)};var P=[{path:"",redirectTo:"home",pathMatch:"full"},{path:"login",loadComponent:()=>import("./chunk-3CWRLUE5.js").then(t=>t.LoginComponent)},{path:"home",canActivate:[O],async loadComponent(){return(await import("./chunk-OWP3QON5.js")).HomeComponent},children:[{path:"",redirectTo:"dashboard",pathMatch:"full"},{path:"dashboard",loadComponent:()=>import("./chunk-67VZVSDL.js").then(t=>t.DashboardComponent)},{path:"patients",loadComponent:()=>import("./chunk-K32ORIW3.js").then(t=>t.PatientComponent)},{path:"visits",loadComponent:()=>import("./chunk-AWURBTDT.js").then(t=>t.VisitComponent)},{path:"queue",loadComponent:()=>import("./chunk-EFC6VW4S.js").then(t=>t.QueueComponent)},{path:"payments",loadComponent:()=>import("./chunk-SIFMVHBZ.js").then(t=>t.PaymentComponent)},{path:"reports",loadComponent:()=>import("./chunk-2LTQK6ZJ.js").then(t=>t.ReportComponent)},{path:"settings",loadComponent:()=>import("./chunk-XTSHCPKG.js").then(t=>t.SettingComponent)}]},{path:"test",loadComponent:()=>import("./chunk-O2ZPPJSJ.js").then(t=>t.Test)},{path:"**",redirectTo:"home"}];var R={providers:[f(),v(),M({loader:D({prefix:"/i18n/",suffix:".json"}),fallbackLang:"en",lang:"en"}),x(P)]};var p=class t{constructor(o){this.appTranslate=o}title=d("dclinic");static \u0275fac=function(n){return new(n||t)(u(H))};static \u0275cmp=h({type:t,selectors:[["app-root"]],decls:1,vars:0,template:function(n,r){n&1&&g(0,"router-outlet")},dependencies:[T,b],styles:["[dir=rtl][_ngcontent-%COMP%]{direction:rtl}[dir=rtl][_ngcontent-%COMP%]   .text-left[_ngcontent-%COMP%]{text-align:right}[dir=rtl][_ngcontent-%COMP%]   .text-right[_ngcontent-%COMP%]{text-align:left}"]})};C(p,R).catch(t=>console.error(t));
+import { a as H } from './chunk-BHVNSPY6.js';
+import { a as y } from './chunk-EHV4AGIJ.js';
+import { a as L, d as M, e as b } from './chunk-XVAHRLWD.js';
+import { a as C, b as a, c as i, d as v, g as T, h as A, i as x } from './chunk-T2HTACBN.js';
+import {
+  Aa as h,
+  I as c,
+  L as l,
+  N as e,
+  Ta as g,
+  a as m,
+  aa as f,
+  ba as d,
+  wa as u,
+} from './chunk-KIKRUHUI.js';
+var s = new l('TRANSLATE_HTTP_LOADER_CONFIG'),
+  j = (() => {
+    class t {
+      http;
+      config;
+      constructor() {
+        (this.config = m(
+          { prefix: '/assets/i18n/', suffix: '.json', enforceLoading: !1, useHttpBackend: !1 },
+          e(s)
+        )),
+          (this.http = this.config.useHttpBackend ? new i(e(a)) : e(i));
+      }
+      getTranslation(n) {
+        let r = this.config.enforceLoading ? `?enforceLoading=${Date.now()}` : '';
+        return this.http.get(`${this.config.prefix}${n}${this.config.suffix}${r}`);
+      }
+      static ɵfac = function (r) {
+        return new (r || t)();
+      };
+      static ɵprov = c({ token: t, factory: t.ɵfac });
+    }
+    return t;
+  })();
+function D(t = {}) {
+  let o = t.useHttpBackend ?? !1;
+  return [
+    { provide: s, useValue: t },
+    { provide: L, useClass: j, deps: [o ? a : i, s] },
+  ];
+}
+var O = () => {
+  let t = e(y),
+    o = e(A);
+  return t.isLoggedIn() ? !0 : (o.navigate(['/login']), !1);
+};
+var P = [
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  {
+    path: 'login',
+    loadComponent: () => import('./chunk-3CWRLUE5.js').then((t) => t.LoginComponent),
+  },
+  {
+    path: 'home',
+    canActivate: [O],
+    async loadComponent() {
+      return (await import('./chunk-OWP3QON5.js')).HomeComponent;
+    },
+    children: [
+      { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
+      {
+        path: 'dashboard',
+        loadComponent: () => import('./chunk-67VZVSDL.js').then((t) => t.DashboardComponent),
+      },
+      {
+        path: 'patients',
+        loadComponent: () => import('./chunk-K32ORIW3.js').then((t) => t.PatientComponent),
+      },
+      {
+        path: 'visits',
+        loadComponent: () => import('./chunk-AWURBTDT.js').then((t) => t.VisitComponent),
+      },
+      {
+        path: 'queue',
+        loadComponent: () => import('./chunk-EFC6VW4S.js').then((t) => t.QueueComponent),
+      },
+      {
+        path: 'payments',
+        loadComponent: () => import('./chunk-SIFMVHBZ.js').then((t) => t.PaymentComponent),
+      },
+      {
+        path: 'reports',
+        loadComponent: () => import('./chunk-2LTQK6ZJ.js').then((t) => t.ReportComponent),
+      },
+      {
+        path: 'settings',
+        loadComponent: () => import('./chunk-XTSHCPKG.js').then((t) => t.SettingComponent),
+      },
+    ],
+  },
+  { path: 'test', loadComponent: () => import('./chunk-O2ZPPJSJ.js').then((t) => t.Test) },
+  { path: '**', redirectTo: 'home' },
+];
+var R = {
+  providers: [
+    f(),
+    v(),
+    M({ loader: D({ prefix: './i18n/', suffix: '.json' }), fallbackLang: 'en', lang: 'en' }),
+    x(P),
+  ],
+};
+var p = class t {
+  constructor(o) {
+    this.appTranslate = o;
+  }
+  title = d('dclinic');
+  static ɵfac = function (n) {
+    return new (n || t)(u(H));
+  };
+  static ɵcmp = h({
+    type: t,
+    selectors: [['app-root']],
+    decls: 1,
+    vars: 0,
+    template: function (n, r) {
+      n & 1 && g(0, 'router-outlet');
+    },
+    dependencies: [T, b],
+    styles: [
+      '[dir=rtl][_ngcontent-%COMP%]{direction:rtl}[dir=rtl][_ngcontent-%COMP%]   .text-left[_ngcontent-%COMP%]{text-align:right}[dir=rtl][_ngcontent-%COMP%]   .text-right[_ngcontent-%COMP%]{text-align:left}',
+    ],
+  });
+};
+C(p, R).catch((t) => console.error(t));
